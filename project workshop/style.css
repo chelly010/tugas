@@ -1,0 +1,26 @@
+.navbar .menu ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.navbar .menu{
+    display: flex;
+    align-items: center;
+}
+.navbar .search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: solid black;
+    width: 200px;
+    height: 38px;
+    border-radius: 6px;
+    padding-left: 7px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(233, 83, 83);
+    color: white;
+}
